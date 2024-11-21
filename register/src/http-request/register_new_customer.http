@@ -1,0 +1,11 @@
+POST http://localhost:7000/register/Customer
+Content-Type: application/json
+
+{
+  
+    "email": "m_deby_c@hotmail.com",
+    "password": "123"
+}
+   
+
+

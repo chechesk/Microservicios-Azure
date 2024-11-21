@@ -1,0 +1,8 @@
+POST http://localhost:7000/register/Customer/send_message
+Content-Type: application/json
+
+{
+  "name":"debora", 
+  "email":"carabajaldebora25@gmail.com",
+  "message":"probando ruta de back"
+}

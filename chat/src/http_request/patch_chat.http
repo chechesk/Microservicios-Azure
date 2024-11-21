@@ -1,0 +1,10 @@
+PATCH http://localhost:7000/chat
+Content-Type: application/json
+
+
+{
+  "id": "efdffc07-e422-41f1-a502-5e9e000bf87d",
+  "user_prompt": "cual es el riesgo de invertir",
+  "language":"es",
+  "init":0
+}

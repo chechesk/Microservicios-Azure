@@ -1,0 +1,12 @@
+POST http://localhost:7000/chat/inversionAnual
+Content-Type: application/json
+
+{
+  
+	"inversion_inicial": 200000,
+	"tasa_interes": 9.5,
+	
+	"años": 5,
+	"adicion_mensual": 200000
+
+}

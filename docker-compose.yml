@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+  gateway:
+    container_name: gateway
+    restart: always
+    build: ./gateway
+    ports:
+      - "7000:7000"
+
+  database:
+    container_name: database
+    restart: always
+    build: ./database
+    ports:
+      - "7001:7001"
+
+  log-in:
+    container_name: login
+    restart: always
+    build: ./log-in
+    ports:
+      - "7003:7003"
+
+  register:
+    container_name: register
+    restart: always
+    build: ./register
+    ports:
+      - "7002:7002"
+
+  chat:
+    container_name: chat
+    restart: always
+    build: ./chat
+    ports:
+      - "7004:7004"
+
+  # avatar:
+  #   container_name: avatar
+  #   restart: always
+  #   build: ./ApiAvatar
+  #   ports:
+  #     - "7004:7005"    
+

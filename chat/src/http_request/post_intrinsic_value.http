@@ -1,0 +1,7 @@
+POST http://localhost:7000/chat/intrinsicValue
+Content-Type: application/json
+
+{
+"symbol": "GOOGL",
+"targets": [3,6,9,12,18]
+}

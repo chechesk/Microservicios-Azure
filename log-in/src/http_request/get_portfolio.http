@@ -1,0 +1,2 @@
+GET http://localhost:7000/login/portfolio?query=customer_id&value=a9b255c5-8af1-4062-aae8-5357d15a835b
+Content-Type: application/json

@@ -1,0 +1,9 @@
+POST http://dashboard.quantumdassets.com:7000//register/validate/Customer
+Content-Type: application/json
+
+{
+"email": "m_deby_c@hotmail.com",
+"verification_code": "677290"
+}
+
+

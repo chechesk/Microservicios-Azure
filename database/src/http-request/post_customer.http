@@ -1,0 +1,10 @@
+POST http://database:7001/Customer
+Content-Type: application/json
+
+{
+    "first_name": "Oscar",
+    "last_name": "Restrepo",
+    "email": "sadomim103@czilou.com",
+    "password": "123",
+    "verification_code":"123560"
+}

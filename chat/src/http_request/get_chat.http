@@ -1,0 +1,2 @@
+GET http://localhost:7000/chat?query=customer_id&value=e149cc17-335e-4e2d-9d66-78567fd6322a
+Content-Type: application/json

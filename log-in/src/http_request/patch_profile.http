@@ -1,0 +1,9 @@
+PATCH http://localhost:7000/login/portfolio
+Content-Type: application/json
+
+{
+  "id": "eb39b4e7-148d-4d02-bec6-71d952f51b4d",
+   "timestep":70,
+   "Initial_investment":100500
+  
+}

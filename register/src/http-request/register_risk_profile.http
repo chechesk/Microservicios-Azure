@@ -1,0 +1,23 @@
+
+POST http://localhost:7000/register/Customer/RiskProfile?query=id&value=261bd54f-3963-48dc-bc4e-1354a87644dc
+Content-Type: application/json
+{
+"occupation": "productor",
+"onthly_income": 12000650,
+"type_of_income": "salary",
+"capital_willing_to_invest": 5350000,
+"investment_horizon": "1",
+"investment_experience_level": "alta",
+"temporary_losses": true,
+"high_or_moderate_returns": "no",
+"capital_willing_to_lose": "3",
+"risk_tolerance": "medium",
+"reinvest_profits": true,
+"temporary_loss_reaction": "mantener",
+"long_term_financial_goals": "rentabilidad",
+"max_loss_percentage_per_day": "3" ,
+"currencies":"EUR"
+}
+
+
+

@@ -1,0 +1,2 @@
+GET http://localhost:7000/database/RiskScore?query=customer_id&value=3971b5a1-4d36-4a1c-b41a-954fdde2e99f
+Content-Type: application/json

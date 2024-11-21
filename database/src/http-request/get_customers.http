@@ -1,0 +1,3 @@
+GET http://database:7001/database/Customer
+Content-Type: application/json
+

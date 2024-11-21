@@ -1,0 +1,13 @@
+POST http://localhost:7000/chat/riskScore
+Content-Type: application/json
+
+{
+  
+  "id": "3971b5a1-4d36-4a1c-b41a-954fdde2e99f",
+  "profile": "medium",
+  "max_drawdown": 0.197333333,
+  "stocks": 0.051333333,
+  "etfs": 0.051333333,
+  "funds": 0.897333333
+  
+}

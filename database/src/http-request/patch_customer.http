@@ -1,0 +1,22 @@
+PATCH http://database:7001/Customer
+Content-Type: application/json
+
+{
+		"id": "24d4dfca-6a27-490f-a70e-2a856a803ef9",
+		"first_name": "jose",
+		"last_name": "jodedera",
+		"avatar": "https://gruporf.cl/wp-content/uploads/2024/01/avatar.png",
+		"surname": "Mendoza",
+		"age": 34,
+		"birth_date": "1989-07-12",
+		"dni": "$2b$10$At4p5mR8fMGgG04NponlSucIjmEc4GRWVJKQb9EYasy83tFgtMBHG",
+		"document_type": "C.C",
+		"document_file": "test.png",
+		"cellphone_number": "99999999",
+		"country_code": "AR",
+		"city": "Buenos Aires",
+		"createdAt": "2024-01-05T19:20:03.209Z",
+		"updatedAt": "2024-01-05T19:20:03.209Z",
+		"customer_id": "ffd8c29d-8dcd-4448-940d-a4f2c268c513"    
+}
+
